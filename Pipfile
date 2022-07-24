@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+valclient = {git = "https://github.com/colinhartigan/valclient.py"}
+requests = "*"
+pillow = "*"
+pymongo = "*"
+aiohttp = "*"
+py-cord = "*"
+deta = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[pipenv]
+allow_prereleases = true
